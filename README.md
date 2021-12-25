@@ -25,15 +25,15 @@ Classify the given genetic variations/mutations based on evidence from text-base
   - training_variants (ID , Gene, Variations, Class)
   - training_text (ID, Text)
  
-*Preprocessing Text Data
+*Preprocessing Text Data*
 
-*Checking Null Values
+*Checking Null Values*
 
 **Merging both gene variations and text data**
 
-*Perform Exploratory Data Analysis
+*Perform Exploratory Data Analysis*
 
-**Univariate Analysis
+**Univariate Analysis**
 - Response Coding with Laplace Smoothing
 - Univariate Analysis on Gene Feature
 - Featurizing Gene Feature
@@ -44,7 +44,7 @@ Classify the given genetic variations/mutations based on evidence from text-base
 [Click Here](https://github.com/akashbangalkar/cancer_diagnosis/blob/main/Cancer_Diagnosis.ipynb) To Check Total Work on Case Study.
 
 ### Machine Learning Models
-*Stacking all the three types of features
+*Stacking all the three types of features*
 
 | Model         | Log Loss |
 | ------------- | -------- |
