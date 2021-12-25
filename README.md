@@ -24,14 +24,39 @@ Classify the given genetic variations/mutations based on evidence from text-base
 **Data file's information:**
   - training_variants (ID , Gene, Variations, Class)
   - training_text (ID, Text)
-  
-*Preprocessing Text Data*
+ 
+*Preprocessing Text Data
 
-*Checking Null Values*
+*Checking Null Values
 
 **Merging both gene variations and text data**
 
-*Perform Exploratory Data Analysis*
+*Perform Exploratory Data Analysis
+
+**Univariate Analysis
+- Response Coding with Laplace Smoothing
+- Univariate Analysis on Gene Feature
+- Featurizing Gene Feature
+- Univariate Analysis on Variation Feature
+- Featurizing Variation Feature
+- Univariate Analysis on Text Feature
+
+[Click Here](https://github.com/akashbangalkar/cancer_diagnosis/blob/main/Cancer_Diagnosis.ipynb) To Check Total Work on Case Study.
+
+### Machine Learning Models
+*Stacking all the three types of features
+
+| Model         | Log Loss |
+| ------------- | -------- |
+| Naive Bayes  | 1.3007  |
+| KNN Classification | 1.0827  |
+| Logistic Regression (With Class Balancing) | 1.2266 |
+| Logistic Regression (Without Class Balancing) | 1.2201 |
+| Linear Support Vector Machines | 1.2283 |
+| Random Forest Classifier | 1.1755 |
+| Stacking Model | 1.2749 |
+| Maximum Voting Classifier | 1.2356 |
+
 
 
 
